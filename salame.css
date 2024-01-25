@@ -1,0 +1,28 @@
+.salames ul, li, p {
+    margin: 5px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+img{
+    max-width: 100%;
+    display: block;
+}
+.salames{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+ 
+.salames>div {
+    flex: 200px;
+    margin: 10px 10px;
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+  }
